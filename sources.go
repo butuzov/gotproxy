@@ -1,11 +1,12 @@
 package main
 
 import (
-	"gotproxy/client"
 	"log"
 	"regexp"
 	"strings"
 	"time"
+
+	"github.com/butuzov/gotproxy/client"
 )
 
 // hideMyIp is utility method used for two websites developed by same producer,

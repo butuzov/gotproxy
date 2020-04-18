@@ -13,12 +13,13 @@ SaveResults triggered if terminated/panics/finishes.
 
 import (
 	"encoding/json"
-	"gotproxy/client"
 	"io/ioutil"
 	"log"
 	"net/url"
 	"sync"
 	"time"
+
+	"github.com/butuzov/gotproxy/client"
 )
 
 // VerificationPipeline is a part of pipeline to validate incoming proxy servers

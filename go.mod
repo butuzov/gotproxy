@@ -1,4 +1,4 @@
-module gotproxy
+module github.com/butuzov/gotproxy
 
 go 1.14
 
