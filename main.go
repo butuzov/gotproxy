@@ -10,7 +10,7 @@ import (
 	"time"
 )
 
-const Exported = "export.json"
+const Exported = "proxy.json"
 
 func main() {
 
